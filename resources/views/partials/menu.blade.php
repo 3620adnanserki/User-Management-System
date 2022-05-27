@@ -82,6 +82,14 @@
                 </li>
             @endcan
             <li class="nav-item">
+                <a href="{{ route("admin.subscriptions.index") }}" class="nav-link" >
+                    <span class="icon-holder">
+                        <i class="nav-icon fas fa-fw fa-box"></i>
+                    </span>
+                    <span class="title">Subscriptions</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a href="#" class="nav-link" onclick="event.preventDefault(); document.getElementById('logoutform').submit();">
                     <span class="icon-holder">
                         <i class="nav-icon fas fa-fw fa-sign-out-alt"></i>
